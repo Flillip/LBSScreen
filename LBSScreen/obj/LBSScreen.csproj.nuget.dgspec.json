@@ -45,6 +45,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Discord.Net": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
+            "EasyLogPlus": {
+              "target": "Package",
+              "version": "[1.0.6.1, )"
+            },
             "MonoGame.Content.Builder.Task": {
               "target": "Package",
               "version": "[3.8.1.303, )"
@@ -52,6 +60,10 @@
             "MonoGame.Framework.DesktopGL": {
               "target": "Package",
               "version": "[3.8.1.303, )"
+            },
+            "ini-parser": {
+              "target": "Package",
+              "version": "[2.5.2, )"
             }
           },
           "imports": [
