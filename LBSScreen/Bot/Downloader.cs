@@ -25,6 +25,8 @@ namespace LBSScreen.Bot
             {
                 byte[] fileContent = await response.Content.ReadAsByteArrayAsync();
 
+                if (Directory.Exists(_downloadPath) == false) Directory.CreateDirectory(_downloadPath);
+
                 File.WriteAllBytes(localFilePath, fileContent);
                 Logger.Log($"File downloaded successfully to: {localFilePath}");
             }

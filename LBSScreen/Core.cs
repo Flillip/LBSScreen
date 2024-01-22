@@ -51,8 +51,8 @@ namespace LBSScreen
 
         protected override void Initialize()
         {
-            //bot = new DiscordBot();
-            //bot.UpdatedImages += this.BotUpdatedImages;
+            bot = new DiscordBot();
+            bot.UpdatedImages += this.BotUpdatedImages;
 
             EntityManager = new EntityManager();
 
@@ -62,7 +62,6 @@ namespace LBSScreen
             _displayer.AddPicture(picture);
 
             List<ITransition> transitions = GetTransitionInstances();
-            //_displayer.AddTransition(transitions[0]);
             transitions.ForEach((transition) => _displayer.AddTransition(transition));
 
             base.Initialize();
@@ -93,7 +92,7 @@ namespace LBSScreen
 
         protected override void OnExiting(object sender, EventArgs args)
         {
-            //bot.Stop();
+            bot.Stop();
             base.OnExiting(sender, args);
         }
 
