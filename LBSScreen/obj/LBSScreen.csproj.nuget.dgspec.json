@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\LBSScreen\\LBSScreen\\LBSScreen.csproj": {}
+    "C:\\Dev\\C#\\LBSScreen\\LBSScreen\\LBSScreen.csproj": {}
   },
   "projects": {
-    "C:\\dev\\LBSScreen\\LBSScreen\\LBSScreen.csproj": {
+    "C:\\Dev\\C#\\LBSScreen\\LBSScreen\\LBSScreen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\LBSScreen\\LBSScreen\\LBSScreen.csproj",
+        "projectUniqueName": "C:\\Dev\\C#\\LBSScreen\\LBSScreen\\LBSScreen.csproj",
         "projectName": "LBSScreen",
-        "projectPath": "C:\\dev\\LBSScreen\\LBSScreen\\LBSScreen.csproj",
-        "packagesPath": "C:\\Users\\xboxl\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\LBSScreen\\LBSScreen\\obj\\",
+        "projectPath": "C:\\Dev\\C#\\LBSScreen\\LBSScreen\\LBSScreen.csproj",
+        "packagesPath": "C:\\Users\\filip.holmgren3\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\C#\\LBSScreen\\LBSScreen\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\xboxl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\filip.holmgren3\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,8 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.bepinex.dev/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -77,30 +76,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

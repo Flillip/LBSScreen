@@ -29,6 +29,13 @@ namespace LBSScreen.PictureDisplayer
             _color = Color.White;
         }
 
+        public Picture(Texture2D texture)
+        {
+            _texture = texture;
+            _scale = Vector2.Zero;
+            _color = Color.White;
+        }
+
         public Texture2D GetTexture() => _texture;
 
         public Vector2 ToScale(int width, int height)

@@ -57,11 +57,9 @@ namespace LBSScreen
             EntityManager = new EntityManager();
 
             _displayer = new Displayer();
-            Picture picture = new Picture("./mike.png");
-            Picture picture2 = new Picture("./quota.png");
+            Picture picture = new Picture(Content.Load<Texture2D>("updatera"));
 
             _displayer.AddPicture(picture);
-            _displayer.AddPicture(picture2);
 
             List<ITransition> transitions = GetTransitionInstances();
             //_displayer.AddTransition(transitions[0]);
