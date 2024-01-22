@@ -65,6 +65,7 @@ namespace LBSScreen.PictureDisplayer
 
         public override void Update(float delta)
         {
+            if (_pictures.Count == 1) return;
             if (_lerpTimer.HasStopped == false && _previousPictureIndex != -1)
             {
                 float lerpValue = MathF.Min(_lerpTimer.CurrentTime / _lerpTimerTime, 1.0f);
@@ -91,6 +92,8 @@ namespace LBSScreen.PictureDisplayer
 
         private void OnTimerFinished()
         {
+            if (_pictures.Count == 1) return;
+
             _currentTransition = Core.Instance.Random.Next(0, _transitions.Count);
 
             _previousPictureIndex = _currentPictureIndex;
